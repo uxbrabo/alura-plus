@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --branco-principal: #FFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-do-fundo: #00030C;
+
+
+    --font-titulo: "inter" 48px ;
+    --fonte-principal: "inter, sans-serif" 28px;
+    --fonte-paragrafos: "inter, sans-serif" 16px;
+}
+
+body {
+    color: var(--branco-principal);
+    background-color: var(--cor-do-fundo);
+    background-image: url("./Assets/Background.png");
+    background-size: 100%;
+    background-repeat:no-repeat
+
+}
+
+.conteudo-header {
+    display: flex;
+    padding: 6rem 3rem;
+    
+}
+
+.infos-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-header {
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 588px;
+}
+
+.combo-header {
+    width: auto;
+    height: auto;
+}
+
+.button-assine-combo-header {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background: #167BF7;
+    width: 512px;
+    padding: 16px;
+}
+
+.button-plano-header {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 512px;
+    padding: 16px;
+}
+
+.description-header {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.assista-do-seu-jeito-container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.titulo-assista-do-seu-jeito {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;   
+}
+
+.descricao-assista-do-seu-jeito {
+    width: 550px;
+    color: #F9F9F9;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.assine-o-combo-container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.descricao-assine-o-combo {
+    width: 550px;
+    color: #F9F9F9;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.descricao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-assine-o-combo {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background: #167BF7;
+    width: 8rem;
+    padding: 16px;
+}
+
+.baixe-seus-cursos-container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.descricao-baixe-seus-cursos-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-baixe-seus-cursos {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.descricao-baixe-seus-cursos {
+    width: 550px;
+    color: #F9F9F9;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.dispositivos-descricao-container {
+    padding: 5%;
+}
+
+.dispositivos-container {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.titulo-dispositivos {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.tv {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-dispositivo-tv {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.computadores {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-dispositivo-computadores {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.celulares-e-tablets {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-dispositivo-celulares-e-tablets {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.rodape {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+ 
+}
+
+.links-acessiveis {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    gap: 3rem;
+}
+
+.direitos {
+    width: 1200px;
+    line-height: 1.5rem;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
